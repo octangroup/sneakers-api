@@ -8,7 +8,6 @@ inherit_mode:
 
 require:
   - rubocop-rails
-  - rubocop-rspec
 
 AllCops:
   Exclude:
@@ -21,7 +20,7 @@ AllCops:
 
 # ========== Style ==========
 
-Layout/AlignHash:
+Layout/HashAlignment:
   Enabled: true
   EnforcedHashRocketStyle: table
   EnforcedColonStyle: table
@@ -94,22 +93,22 @@ Rails/Output:
     - db/seeds.rb
     - db/seeds/*.rb
 
-# ========== Rspec ==========
+# # ========== Rspec ==========
 
-RSpec/ExampleLength:
-  Max: 20
+# RSpec/ExampleLength:
+#   Max: 20
 
-RSpec/LeadingSubject:
-  Enabled: false
+# RSpec/LeadingSubject:
+#   Enabled: false
 
-RSpec/LetSetup:
-  Enabled: false
+# RSpec/LetSetup:
+#   Enabled: false
 
-RSpec/MultipleExpectations:
-  Max: 4
+# RSpec/MultipleExpectations:
+#   Max: 4
 
-RSpec/NamedSubject:
-  Enabled: false
+# RSpec/NamedSubject:
+#   Enabled: false
 
-RSpec/NestedGroups:
-  Max: 5
+# RSpec/NestedGroups:
+#   Max: 5
