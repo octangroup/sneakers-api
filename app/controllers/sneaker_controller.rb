@@ -8,4 +8,9 @@ class SneakerController < ApplicationController
         render json: Sneaker.find_by(slug: params[:id])
     end
 
+    def create
+        @sneaker = Sneaker.new(params)
+    end
+    
+
 end
