@@ -9,8 +9,12 @@ class SneakerController < ApplicationController
     end
 
     def create
-        @sneaker = Sneaker.new(params)
+        @sneaker = Sneaker.new(get_params)
+        @sneaker.save
     end
     
+    def get_params
+        params.permit(:id,:title,:slug,:items)
+    end
 
 end
