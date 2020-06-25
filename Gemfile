@@ -38,3 +38,13 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
+gem 'apipie-rails'
+
+gem 'rswag-api'
+gem 'rswag-ui'
+gem 'rswag'
+
+group :development, :test do
+  gem 'rspec-rails',         '~> 3.8.1'
+  gem 'rspec-rails-swagger', '~> 0.1.5'
+end

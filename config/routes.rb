@@ -1,6 +1,9 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
+  mount Rswag::Api::Engine => '/api-docs'
+  mount Rswag::Ui::Engine => '/api-docs'
+  apipie
   get '/:slug', to: 'users#show', as: 'show'
   resources :sneaker, only: %i[index create show]
   resources 'sneaker', path: '/'

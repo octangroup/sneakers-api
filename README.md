@@ -1,24 +1,34 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[![Build Status](https://travis-ci.org/octangroup/sneakers-api.svg?branch=ch%2Fdocs)](https://travis-ci.org/octangroup/sneakers-api)
 
-Things you may want to cover:
+## Sneakers-Api
 
-* Ruby version
+This is an api thats retrieves data from Mongo-db Atlas and display data in json format. It is done with Ruby on Rails.
 
-* System dependencies
+## Requirements
 
-* Configuration
+- Ruby 2.7.0 or newer
+- Rails
+- Mongodb or Mongo Atlas
+- all ruby dependencies are described in the Gemfile (please refer to the changelog of this file to check for updates)
 
-* Database creation
+## Installation
 
-* Database initialization
+1) Install the bundle
 
-* How to run the test suite
+    bundle install
 
-* Services (job queues, cache servers, search engines, etc.)
+2) Setup your database
 
-* Deployment instructions
+     config/mongoid.yml
 
-* ...
+## Usage
+
+Run the server
+
+```bash
+rails server
+```
+
+Open [http://localhost:3000](http://localhost:3000)
