@@ -32,3 +32,11 @@ rails server
 ```
 
 Open [http://localhost:3000](http://localhost:3000)
+
+## Endpoints
+
+Endpoints for viewing data and creating them.
+
+- [Show All sneakers](sneaker/get.md) : `GET /sneaker/`
+- [Create sneaker](sneaker/post.md) : `POST /sneaker/`
+- [Show a sneaker](sneaker/slug/get.md) : `GET /sneaker/:slug/`
