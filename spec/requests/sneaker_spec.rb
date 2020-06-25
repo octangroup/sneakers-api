@@ -1,7 +1,8 @@
+# frozen_string_literal: true
+
 require 'swagger_helper'
 
 RSpec.describe 'sneaker', type: :request do
-
   path '/sneaker' do
     get(summary: 'list sneakers') do
       response(200, description: 'successful') do

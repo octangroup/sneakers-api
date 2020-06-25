@@ -17,22 +17,22 @@ RSpec.configure do |config|
   config.swagger_docs = {
     'v1/swagger.yaml' => {
       openapi: '3.0.1',
-      info: {
-        title: 'API V1',
-        version: 'v1'
+      info:    {
+        title:   'API V1',
+        version: 'v1',
       },
-      paths: {},
+      paths:   {},
       servers: [
         {
-          url: 'https://{defaultHost}',
+          url:       'https://{defaultHost}',
           variables: {
             defaultHost: {
-              default: 'www.example.com'
-            }
-          }
-        }
-      ]
-    }
+              default: 'www.example.com',
+            },
+          },
+        },
+      ],
+    },
   }
 
   # Specify the format of the output Swagger file when running 'rswag:specs:swaggerize'.
