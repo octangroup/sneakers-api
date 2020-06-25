@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Rails.application.routes.draw do
   get '/:slug', to: 'users#show', as: 'show'
   resources :sneaker, only: %i[index create show]
