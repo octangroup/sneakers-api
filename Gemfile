@@ -45,6 +45,6 @@ gem 'rswag-api'
 gem 'rswag-ui'
 
 group :development, :test do
-  gem 'rspec-rails',         '~> 3.8.1'
+  gem 'rspec-rails',         '~> 3.9.1'
   gem 'rspec-rails-swagger', '~> 0.1.5'
 end
