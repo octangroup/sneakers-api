@@ -61,7 +61,7 @@ GEM
     apipie-rails (0.5.18)
       rails (>= 4.1)
     ast (2.4.1)
-    bootsnap (1.4.6)
+    bootsnap (1.4.7)
       msgpack (~> 1.0)
     bson (4.9.2)
     builder (3.2.4)
