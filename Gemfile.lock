@@ -64,19 +64,26 @@ GEM
     bootsnap (1.4.6)
       msgpack (~> 1.0)
 
+
     bson (4.10.0)
+ develop
     bson (4.9.2)
     builder (3.2.4)
     byebug (11.1.3)
     concurrent-ruby (1.1.6)
     crass (1.0.6)
+    diff-lcs (1.4.4)
+
     diff-lcs (1.4.2)
+ develop
     erubi (1.9.0)
     ffi (1.13.1)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     i18n (1.8.4)
+
     i18n (1.8.5)
+ develop
       concurrent-ruby (~> 1.0)
     json-schema (2.8.1)
       addressable (>= 2.4)
@@ -95,10 +102,12 @@ GEM
     mini_mime (1.0.2)
     mini_portile2 (2.4.0)
     minitest (5.14.1)
+
     mongo (2.12.2)
       bson (>= 4.8.2, < 5.0.0)
     mongoid (7.1.2)
 
+ develop
     mongo (2.12.1)
       bson (>= 4.8.2, < 5.0.0)
     mongoid (7.0.8)
@@ -106,7 +115,10 @@ GEM
       mongo (>= 2.7.0, < 3.0.0)
     msgpack (1.3.3)
     nio4r (2.5.2)
+    nokogiri (1.10.10)
+
     nokogiri (1.10.9)
+ develop
       mini_portile2 (~> 2.4.0)
     parallel (1.19.2)
     parser (2.7.1.4)
@@ -168,6 +180,8 @@ GEM
       rspec-expectations (~> 3.8.0)
       rspec-mocks (~> 3.8.0)
       rspec-support (~> 3.8.0)
+    rspec-rails-swagger (0.2.0)
+
     rspec-rails-swagger (0.1.5)
       rails (>= 3.1)
       rspec-rails (~> 3.0)
@@ -661,6 +675,7 @@ GEM
       rspec-support (~> 3.8.0)
     rspec-rails-swagger (0.1.5)
       rails (>= 3.1)
+ develop
       rspec-rails (~> 3.0)
     rspec-support (3.8.3)
     rswag (2.3.1)
@@ -708,13 +723,17 @@ GEM
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
     unicode-display_width (1.7.0)
+    websocket-driver (0.7.3)
+
     websocket-driver (0.7.2)
+ develop
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
     zeitwerk (2.4.0)
 
     zeitwerk (2.3.0)
 
+ develop
 PLATFORMS
   ruby
 
@@ -723,20 +742,33 @@ DEPENDENCIES
   bootsnap (>= 1.4.2)
   byebug
   listen (~> 3.2)
+
   mongoid (~> 7.1.2)
 
+ develop
   mongoid (~> 7.0.5)
   puma (~> 4.1)
   rack-cors
   rails (~> 6.0.3, >= 6.0.3.2)
   rspec-rails (~> 3.8.1)
+  rspec-rails-swagger (~> 0.2.0)
+
   rspec-rails-swagger (~> 0.1.5)
+ develop
   rswag
   rswag-api
   rswag-ui
   rubocop-rails
   spring
   spring-watcher-listen (~> 2.0.0)
+  tzinfo-data
+
+RUBY VERSION
+   ruby 2.7.1p83
+
+BUNDLED WITH
+   2.1.4
+
   tzinfo-data
 
 RUBY VERSION
@@ -764,3 +796,4 @@ BUNDLED WITH
  develop
 develop 
 develop
+ develop
